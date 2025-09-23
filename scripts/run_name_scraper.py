@@ -28,9 +28,9 @@ async def run_full_name_scrape():
     """Run the complete scrape of all SumoDB wrestler profile data."""
     print("SumoDB Wrestler Profile Scraper")
     print("=" * 50)
-    print("This will scrape wrestler profile data from offset 200,000 to 348,000")
-    print("Estimated records: ~149,000 wrestler career entries")
-    print("Estimated time: ~5 minutes with 2 second delays")
+    print("This will scrape wrestler profile data from offset 100,000 to 348,000")
+    print("Estimated records: ~249,000 wrestler career entries")
+    print("Estimated time: ~5 minutes with 1 second delays")
     print("Data includes: names, heya, birthplace, debut/retirement dates, physical stats")
     print("=" * 50)
     
@@ -41,7 +41,7 @@ async def run_full_name_scrape():
         return
     
     # Configure scraper with appropriate delays
-    delay = 2.0  # 2 seconds between requests
+    delay = 1.0  # 1 second between requests
     
     print(f"Starting scrape with {delay} second delays between requests...")
     print("You can monitor progress in the log file and console output.")
@@ -93,7 +93,7 @@ async def run_batch_name_scrape(batch_size: int = 10):
     print("Progress will be saved after each batch")
     print("=" * 50)
     
-    start_offset = 200000
+    start_offset = 100000
     end_offset = 348000
     rows_per_page = 1000
     total_pages = (end_offset - start_offset) // rows_per_page + 1

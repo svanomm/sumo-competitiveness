@@ -41,7 +41,7 @@ scraper.log
 # Data files
 data/*.db
 data/*.sqlite
-data/*.csv
+*.csv
 data/exports/
 data/sumodb_batch_*/
 
