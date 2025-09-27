@@ -3,8 +3,8 @@
 Dep. Variable:                    win   No. Observations:               146214
 Model:                          Logit   Df Residuals:                   146192
 Method:                           MLE   Df Model:                           21
-Date:                Tue, 23 Sep 2025   Pseudo R-squ.:                 0.02480
-Time:                        16:35:04   Log-Likelihood:                -98835.
+Date:                Sat, 27 Sep 2025   Pseudo R-squ.:                 0.02480
+Time:                        10:35:31   Log-Likelihood:                -98835.
 converged:                       True   LL-Null:                   -1.0135e+05
 Covariance Type:            nonrobust   LLR p-value:                     0.000
 =========================================================================================
