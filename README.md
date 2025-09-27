@@ -1,4 +1,3 @@
-git clone <https://github.com/svanomm/sumo-competitiveness/>
 # Sumo Competitiveness: Data Acquisition, Cleaning, and Modeling
 
 This repository contains an end‑to‑end pipeline for assembling a research dataset on professional sumo wrestling from the public SumoDB website (sumodb.sumogames.de). It covers: (1) automated collection of bout‐level results (2000–2025) and wrestler profile attributes, (2) structured storage/export as CSV, (3) basic cleaning and feature construction, and (4) preliminary statistical modeling (logistic regression of bout outcomes) and exploratory distributions.
